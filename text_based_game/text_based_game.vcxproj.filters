@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="NewFilter1">
+      <UniqueIdentifier>{ffd46707-ff91-42c1-8168-56bc59458b80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="game\game_engine\game_engine.cpp" />
+    <ClCompile Include="game\world\world.cpp" />
+    <ClCompile Include="game\room\room.cpp" />
+    <ClCompile Include="game\item\item.cpp" />
+    <ClCompile Include="game\character\character.cpp" />
+    <ClCompile Include="game\player\player.cpp" />
+    <ClCompile Include="game\npc\npc.cpp" />
+    <ClCompile Include="game\parser\parser.cpp" />
+    <ClCompile Include="game\json_loader\json_loader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game\game_engine\game_engine.hpp" />
+    <ClInclude Include="game\world\world.hpp" />
+    <ClInclude Include="game\room\room.hpp" />
+    <ClInclude Include="game\item\item.hpp" />
+    <ClInclude Include="game\character\character.hpp" />
+    <ClInclude Include="game\player\player.hpp" />
+    <ClInclude Include="game\npc\npc.hpp" />
+    <ClInclude Include="game\parser\parser.hpp" />
+    <ClInclude Include="game\json_loader\json_loader.hpp" />
+    <ClInclude Include="game\includes.hpp" />
+  </ItemGroup>
+</Project>
